@@ -1,0 +1,149 @@
+header {
+  width: 100%;
+  height: 924px;
+  background: #fafafa;
+}
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: fixed;
+  top: ;
+}
+.navbar-shrink {
+  height: 70px;
+}
+.navbar-left a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--contact-card-hover);
+}
+.navbar-right ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.navbar-right a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  transition: 0.5s;
+}
+.navbar-right a:hover {
+  color: var(--a-color);
+}
+
+.main {
+  background-image: url("../img/cover.png");
+  background-repeat: no-repeat;
+  padding-top: 104px;
+  background-size: cover;
+  width: 100%;
+  height: 710px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.header-left h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: var(--contact-card-hover);
+}
+.header-left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.header-left-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+.header-left-buttons button {
+  background: transparent;
+  padding: 10px 36px;
+  border: var(--main-color) solid 1px;
+  border-radius: 37px;
+  /* text */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--main-color);
+}
+.header-left-buttons button:hover {
+  border-color: var(--btn-hover-color);
+  background: var(--btn-hover-color);
+  color: #ffffff;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  bottom: -22px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 328px;
+  height: 210px;
+  padding-left: 40px;
+  padding-top: 35px;
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.brand {
+  background: transparent;
+}
+.card span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--contact-card-hover);
+}
+.card p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.card:hover {
+  background-color: var(--bg-hover-color);
+}
+.card:hover span {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #ffffff;
+}

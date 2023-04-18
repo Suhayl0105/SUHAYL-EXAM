@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./header.css";
+@import "./about-us.css";
+@import "./advice.css";
+@import "./service.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./responsive.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+:root {
+  --main-color: #00a0c1;
+  --bg-hover-color: #001a7a;
+  --btn-hover-color: #ffa62b;
+  --a-color: black;
+  --contact-card-hover: #151b35;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+input {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}

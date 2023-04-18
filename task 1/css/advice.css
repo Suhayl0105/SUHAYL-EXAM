@@ -1,0 +1,59 @@
+.advice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advice h1 {
+  margin-top: 205px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--contact-card-hover);
+}
+.advice h2 {
+  margin-top: 10px;
+  margin-bottom: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.advice-cards {
+  display: flex;
+  align-items: center;
+  gap: 39.5px;
+}
+.advice-card {
+  background: #ffffff;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.advice-card span {
+  margin-left: 29px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--contact-card-hover);
+}
+.advice-card p {
+  margin-left: 29px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.advice-card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
